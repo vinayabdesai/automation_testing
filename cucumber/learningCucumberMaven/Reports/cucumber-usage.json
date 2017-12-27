@@ -1,0 +1,150 @@
+[
+  {
+    "source": "^Navigate to slideshare$",
+    "steps": [
+      {
+        "name": "Navigate to slideshare",
+        "aggregatedDurations": {
+          "average": 11.655771944,
+          "median": 12.636463972
+        },
+        "durations": [
+          {
+            "duration": 6.415618169,
+            "location": "SlideSharenet.feature:7"
+          },
+          {
+            "duration": 15.915233691,
+            "location": "SlideSharenet.feature:7"
+          },
+          {
+            "duration": 12.636463972,
+            "location": "SlideSharenet.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login should be successful$",
+    "steps": [
+      {
+        "name": "Login should be successful",
+        "aggregatedDurations": {
+          "average": 0.05609521,
+          "median": 0.057587595
+        },
+        "durations": [
+          {
+            "duration": 0.061561849,
+            "location": "SlideSharenet.feature:10"
+          },
+          {
+            "duration": 0.057587595,
+            "location": "SlideSharenet.feature:10"
+          },
+          {
+            "duration": 0.049136188,
+            "location": "SlideSharenet.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on LoginButton$",
+    "steps": [
+      {
+        "name": "click on LoginButton",
+        "aggregatedDurations": {
+          "average": 0.106579571,
+          "median": 0.10159057
+        },
+        "durations": [
+          {
+            "duration": 0.10159057,
+            "location": "SlideSharenet.feature:9"
+          },
+          {
+            "duration": 0.118250618,
+            "location": "SlideSharenet.feature:9"
+          },
+          {
+            "duration": 0.099897525,
+            "location": "SlideSharenet.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I open chrome broswer$",
+    "steps": [
+      {
+        "name": "I open chrome broswer",
+        "aggregatedDurations": {
+          "average": 5.334826507,
+          "median": 4.761802956
+        },
+        "durations": [
+          {
+            "duration": 6.519535737,
+            "location": "SlideSharenet.feature:6"
+          },
+          {
+            "duration": 4.723140829,
+            "location": "SlideSharenet.feature:6"
+          },
+          {
+            "duration": 4.761802956,
+            "location": "SlideSharenet.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"([^\"]*)\" \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter \"vinya\" \"success\"",
+        "aggregatedDurations": {
+          "average": 1.806274883,
+          "median": 1.806274883
+        },
+        "durations": [
+          {
+            "duration": 1.806274883,
+            "location": "SlideSharenet.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Desai\" \"Fail\"",
+        "aggregatedDurations": {
+          "average": 1.573726585,
+          "median": 1.573726585
+        },
+        "durations": [
+          {
+            "duration": 1.573726585,
+            "location": "SlideSharenet.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"vinayaBVC\" \"123er4\"",
+        "aggregatedDurations": {
+          "average": 1.34853705,
+          "median": 1.34853705
+        },
+        "durations": [
+          {
+            "duration": 1.34853705,
+            "location": "SlideSharenet.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

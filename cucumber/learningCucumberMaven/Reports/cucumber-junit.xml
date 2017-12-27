@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="56.188358">
+<testcase classname="Validate the Slideshare.net Application" name="Validate Login Functionality" time="14.904581">
+<system-out><![CDATA[Given I open chrome broswer.................................................passed
+And Navigate to slideshare..................................................passed
+When I enter "vinya" "success"..............................................passed
+And click on LoginButton....................................................passed
+Then Login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Slideshare.net Application" name="Validate Login Functionality 2" time="22.387939">
+<system-out><![CDATA[Given I open chrome broswer.................................................passed
+And Navigate to slideshare..................................................passed
+When I enter "Desai" "Fail".................................................passed
+And click on LoginButton....................................................passed
+Then Login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Slideshare.net Application" name="Validate Login Functionality 3" time="18.895838">
+<system-out><![CDATA[Given I open chrome broswer.................................................passed
+And Navigate to slideshare..................................................passed
+When I enter "vinayaBVC" "123er4"...........................................passed
+And click on LoginButton....................................................passed
+Then Login should be successful.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

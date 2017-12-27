@@ -1,0 +1,32 @@
+#Author: vinaya.bahadurdesai@gmail.com
+Feature: Validate the Slideshare.net Application
+
+  Scenario Outline: Validate Login Functionality [90m# SlideSharenet.feature:5[0m
+    [36mGiven [0m[36mI open chrome broswer[0m
+    [36mAnd [0m[36mNavigate to slideshare[0m
+    [36mWhen [0m[36mI enter "<username>" "<password>"[0m
+    [36mAnd [0m[36mclick on LoginButton[0m
+    [36mThen [0m[36mLogin should be successful[0m
+
+    Examples: 
+
+  Scenario Outline: Validate Login Functionality [90m# SlideSharenet.feature:15[0m
+    [32mGiven [0m[32mI open chrome broswer[0m                  [90m# SanityMavenTest.i_open_chrome_broswer()[0m
+    [32mAnd [0m[32mNavigate to slideshare[0m                   [90m# SanityMavenTest.navigate_to_slideshare()[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mvinya[0m[32m" "[0m[32m[1msuccess[0m[32m"[0m               [90m# SanityMavenTest.i_enter(String,String)[0m
+    [32mAnd [0m[32mclick on LoginButton[0m                     [90m# SanityMavenTest.click_on_LoginButton()[0m
+    [32mThen [0m[32mLogin should be successful[0m              [90m# SanityMavenTest.login_should_be_successful()[0m
+
+  Scenario Outline: Validate Login Functionality [90m# SlideSharenet.feature:16[0m
+    [32mGiven [0m[32mI open chrome broswer[0m                  [90m# SanityMavenTest.i_open_chrome_broswer()[0m
+    [32mAnd [0m[32mNavigate to slideshare[0m                   [90m# SanityMavenTest.navigate_to_slideshare()[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mDesai[0m[32m" "[0m[32m[1mFail[0m[32m"[0m                  [90m# SanityMavenTest.i_enter(String,String)[0m
+    [32mAnd [0m[32mclick on LoginButton[0m                     [90m# SanityMavenTest.click_on_LoginButton()[0m
+    [32mThen [0m[32mLogin should be successful[0m              [90m# SanityMavenTest.login_should_be_successful()[0m
+
+  Scenario Outline: Validate Login Functionality [90m# SlideSharenet.feature:17[0m
+    [32mGiven [0m[32mI open chrome broswer[0m                  [90m# SanityMavenTest.i_open_chrome_broswer()[0m
+    [32mAnd [0m[32mNavigate to slideshare[0m                   [90m# SanityMavenTest.navigate_to_slideshare()[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mvinayaBVC[0m[32m" "[0m[32m[1m123er4[0m[32m"[0m            [90m# SanityMavenTest.i_enter(String,String)[0m
+    [32mAnd [0m[32mclick on LoginButton[0m                     [90m# SanityMavenTest.click_on_LoginButton()[0m
+    [32mThen [0m[32mLogin should be successful[0m              [90m# SanityMavenTest.login_should_be_successful()[0m
